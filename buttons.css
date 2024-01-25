@@ -1,0 +1,64 @@
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100%;
+    grid-row-gap: 24x;
+    background-color: #1b1b1b;
+}
+
+button {
+    padding: 24px;
+    margin: 2px;
+    background-color: #1b1b1b;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+button:hover {
+    border-radius: 50%;
+    background-color: #3a3939;
+    transition: background-color, .15s ease;
+}
+
+.equals {
+    grid-column: 4 / 4;
+    grid-row: 4 / 6;
+    background-color: rgb(6, 252, 39);
+    color: #fff;
+    border-radius: 12px;
+}
+
+.equals:hover {
+    background-color: rgb(78, 251, 101);
+    border-radius: 12px;
+}
+
+.operators {
+    color: rgb(6, 252, 39);
+    color: rgb(6, 252, 39);
+    border-radius: 12px;
+}
+
+.divide {
+    grid-column: 4/4;
+    grid-row: 3/3;
+}
+
+
+.times {
+    grid-column: 4 / 4;
+    grid-row: 2/ 2;
+}
+
+/* #equals:hover {
+    background-color: rgb(35, 252, 64);
+    transition: background-color, .15s ease;
+} */
+
+/* .operator {
+    color: rgb(6, 252, 39);
+} */
